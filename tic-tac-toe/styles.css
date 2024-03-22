@@ -1,0 +1,93 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    background-image: url("https://i.pinimg.com/736x/f7/2d/2f/f72d2fa3f5afdd030268b82a2ccb91b4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent background repetition */
+    position: relative;
+
+}
+h1{
+    background-image: url("https://i.pinimg.com/originals/e8/67/b6/e867b6f09a9b30bace79962804d3f61b.jpg");
+    box-shadow: inset 0 0 20px brown;
+    padding: 10px;
+    border: 2px solid goldenrod;
+    color: goldenrod;
+}
+.board {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 15px;
+    margin-top: 20px;
+}
+.container1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    border: black;
+    border-width: 5px;
+}
+    .cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid goldenrod;
+    font-size: 3em;
+    color:goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 20px brown;
+    background-image: url("https://i.pinimg.com/originals/e8/67/b6/e867b6f09a9b30bace79962804d3f61b.jpg");
+
+}
+
+.cell:hover {
+
+
+    background-color: #f0f0f0;
+}
+
+button{
+    color:goldenrod;
+    padding: 15px;
+    background-color: brown;
+    font-size: large;
+    font-weight: 900;
+    border-color: gold;
+    border-width: 4px;
+    box-shadow: inset 0 0 10px black;
+}
+button:hover{
+    background-color: goldenrod;
+    color:brown;
+    border-color: brown;
+    border-width: 5px;
+    transition: 0.5s;
+}
+
+
+/* Center the alert box */
+.alert-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/* Bold font for the message */
+.alert-box-message {
+    font-weight: bold;
+}
